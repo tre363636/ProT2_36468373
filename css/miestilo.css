@@ -1,3 +1,8 @@
+/* Nueva clase para texto blanco */
+.text-white {
+    color: #ffffff;
+}
+
 body {
     background-color: #121212;
     color: #000000;
