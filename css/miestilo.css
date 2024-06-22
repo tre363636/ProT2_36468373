@@ -1,6 +1,22 @@
-/* Nueva clase para texto blanco */
+/* Nueva clase para eliminar el margen de los iconos */
+.icon-no-margin {
+    margin: 0;
+}
+
+/* Clase para asegurar que todos los iconos tengan el mismo tamaño */
+.icon-size {
+    width: 30px; /* Ajusta el tamaño según tus necesidades */
+    height: 30px; /* Ajusta el tamaño según tus necesidades */
+}
+
 .text-white {
     color: #ffffff;
+}
+
+/* Clase para atenuar el color y reducir el tamaño del texto de derechos de autor */
+.footer-copyright {
+    color: #888; /* Color atenuado */
+    font-size: 0.875rem; /* Tamaño de fuente reducido */
 }
 
 body {
@@ -155,8 +171,13 @@ footer {
 }
 
 .social-media img {
-    max-width: 30px;
+    width: 30px; /* Asegura que todos los iconos tengan el mismo tamaño */
+    height: 30px; /* Asegura que todos los iconos tengan el mismo tamaño */
     margin-right: 10px;
+}
+
+.icon-no-margin {
+    margin: 0;
 }
 
 .carousel-item {
