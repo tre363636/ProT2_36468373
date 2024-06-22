@@ -364,7 +364,7 @@ footer {
 .card-oscura{
     background-color: #12121200;
 }
-
-.text-start{
-    justify-content: initial;
+.d-flex {
+    display: flex !important;
+    justify-content: flex-start;
 }
