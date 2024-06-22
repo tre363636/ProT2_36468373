@@ -342,6 +342,7 @@ footer {
 
 .card {
     text-align: center;
+    
 }
 
 .rounded-container {
@@ -354,3 +355,9 @@ footer {
 .card-container .card {
     margin-bottom: 20px;
 }
+
+.d-flex {
+    display: flex !important;
+    justify-content: center;
+}
+
